@@ -1,0 +1,42 @@
+{
+	"variables": [],
+	"info": {
+		"name": "msg-auth",
+		"_postman_id": "cd8e84ad-cd5a-b049-9813-73f33c8908bd",
+		"description": "Authentication service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Find All",
+			"request": {
+				"url": "localhost:9999/users",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"object\": \"page\",\n  \"entry\": [\n    {\n      \"id\": \"1737561693204916\",\n      \"time\": 1504366950866,\n      \"messaging\": [\n        {\n          \"sender\": {\n            \"id\": \"1608602222505865\"\n          },\n          \"recipient\": {\n            \"id\": \"1737561693204916\"\n          },\n          \"timestamp\": 1504366950737,\n          \"message\": {\n            \"quick_reply\": {\n              \"payload\": \"TC_M_QUICK_INTRO\"\n            },\n            \"mid\": \"mid.$cAAYsTfd8U0VkdIdBUVeQ0H4rOSY4\",\n            \"seq\": 184484,\n            \"text\": \"Nhân mềm\"\n          }\n        }\n      ]\n    }\n  ]\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "About",
+			"request": {
+				"url": "localhost:9999",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "msg-auth",
+  "description": "Authentication microservice",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Le Khac Man <khacmanle@gmail.com> (https://lekhacman.github.io/)",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./server"
+  },
+  "dependencies": {
+    "body-parser": "~1.16.0",
+    "debug": "~2.6.0",
+    "express": "~4.16.0",
+    "morgan": "~1.7.0"
+  }
+}
