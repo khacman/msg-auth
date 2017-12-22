@@ -1,7 +1,7 @@
 "use strict";
 
 function getProfile(req, res, next) {
-    res.send("respond with a resource");
+    res.json({text: "taoheunth"});
 }
 
 module.exports = {
